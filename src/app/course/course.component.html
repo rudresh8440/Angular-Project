@@ -1,0 +1,20 @@
+<section class="Course">
+    <div class="container">
+      <h1 class="text-center">Available Courses</h1>
+     
+      <div class="row"  >
+        <div class="col-lg-3 mb-5" *ngFor="let cs of course">
+            <div class="box">
+                <img src="{{cs.image}}" width="100%">
+                <h3 class="mt-2">{{cs.name}}</h3>
+                <p class="mt-2">{{cs.description}}</p>
+                <button class="btn btn-primary btn-sm mt-2">Grab now</button>
+                
+            </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+   </section>
